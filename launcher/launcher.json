@@ -1,0 +1,17 @@
+{
+  "title": "Bermuda Syndrome",
+  "repo": "sp00nznet/bermuda-recomp",
+  "accent": "#2f8f6f",
+  "note": {
+    "windows": "Early build: it boots to the first scene of a new game; walking and the later scenes are not checked yet. The build takes a few minutes and about 700 MB. Python, capstone, CMake, Ninja and MSYS2's gcc (about 1 GB) are installed if missing."
+  },
+  "game": {
+    "name": "Bermuda Syndrome",
+    "files": ["BERMUDA/SCN/BERMUDA.EXE|SCN/BERMUDA.EXE|bermuda*.iso"]
+  },
+  "sources": [{ "repo": "sp00nznet/pcrecomp", "ref": "pcrecomp-ne-nativemap", "dir": "pcrecomp" }],
+  "setup": {
+    "windows": ["cmd", "/c", "Setup.cmd", "-Yes", "-GameDir", "{game}"]
+  },
+  "play": "Bermuda Syndrome.cmd"
+}
