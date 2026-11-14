@@ -9,7 +9,7 @@
     "name": "Bermuda Syndrome",
     "files": ["BERMUDA/SCN/BERMUDA.EXE|SCN/BERMUDA.EXE|bermuda*.iso"]
   },
-  "sources": [{ "repo": "sp00nznet/pcrecomp", "ref": "pcrecomp-ne-nativemap", "dir": "pcrecomp" }],
+  "sources": [{ "repo": "sp00nznet/pcrecomp", "ref": "main", "dir": "pcrecomp" }],
   "setup": {
     "windows": ["cmd", "/c", "Setup.cmd", "-Yes", "-GameDir", "{game}"]
   },

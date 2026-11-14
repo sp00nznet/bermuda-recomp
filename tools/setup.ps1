@@ -12,7 +12,7 @@ param([switch]$Force, [switch]$Yes, [string]$GameDir = "")
 # ---------------------------------------------------------------- this game
 $Title     = 'Bermuda Syndrome'
 $Exe       = 'bermuda.exe'
-$Branch    = 'pcrecomp-ne-nativemap'   # the pcrecomp branch with this game's host fixes and the native NE code map
+$Branch    = 'main'
 $Shortcut  = 'Bermuda Syndrome.cmd'
 $NeedMB    = 700
 # The CD's BERMUDA folder is the game (SCN\BERMUDA.EXE in it). Accept the CD's

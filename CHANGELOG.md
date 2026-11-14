@@ -15,6 +15,7 @@ All notable changes to this project are documented here. The format follows
   `setup.sh` that says plainly there is no Linux or macOS build yet.
 
 ### Changed
+- Builds against pcrecomp main; the `pcrecomp-ne-nativemap` and `pcrecomp-bermuda` branches are merged.
 - The lift needs no IDA: pcrecomp's `pcrecomp-ne-nativemap` branch builds the
   code map itself (`tools/ne/ne_codemap.py`). `tools/relift.py` lost `--ida`,
   and `Setup.cmd` no longer checks for idalib. It boots to the first scene of

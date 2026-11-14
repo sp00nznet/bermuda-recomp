@@ -8,13 +8,12 @@ thing command by command.
 Windows 10/11, **Python 3.10+** (`py -3 --version`) with `capstone`,
 **CMake** 3.16+, **Ninja**, **MSYS2** with `mingw-w64-x86_64-gcc`
 (`C:\msys64\mingw64\bin\gcc.exe`), **git**, and the pcrecomp toolkit cloned
-**beside** this repository as `pcrecomp`, on branch `pcrecomp-ne-nativemap`
-(or point `PCRECOMP_DIR` at it). `main` lacks this game's host fixes and the
-native NE code map.
+**beside** this repository as `pcrecomp`, on `main`
+(or point `PCRECOMP_DIR` at it).
 
 ```
 some-folder\
-  pcrecomp\                     <- git clone -b pcrecomp-ne-nativemap https://github.com/sp00nznet/pcrecomp
+  pcrecomp\                     <- git clone https://github.com/sp00nznet/pcrecomp
   bermuda-recomp\               <- this repository
 ```
 

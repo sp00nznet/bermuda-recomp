@@ -9,7 +9,7 @@ committed. One command, so a re-lift cannot silently skip a step:
 No IDA: pcrecomp builds each module's code map itself (tools/ne/ne_codemap.py,
 the default inside ne_link).
 
-What it runs, all from pcrecomp (PCRECOMP_DIR, default ../pcrecomp, branch pcrecomp-ne-nativemap):
+What it runs, all from pcrecomp (PCRECOMP_DIR, default ../pcrecomp, branch main):
   ne/wine_spec_to_json.py  the Win16 ordinal map (work/win16_imports.json), built
                       from Wine's .spec files on first run; it is LGPL-derived
                       data, so it is made here and never committed

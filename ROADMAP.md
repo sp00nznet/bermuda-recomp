@@ -20,8 +20,6 @@
   a netlab `QA` line.
 - Headless mode, `--headless --record out.mp4`, so runs and captures need no
   screen (REPO_RULES section 10).
-- The toolkit fixes on pcrecomp's `pcrecomp-ne-nativemap` merged into `main`, and
-  the setup pinned to `main`.
 - A published installer (recomp-launcher) once the game is playable.
 - The end video (`FINAL.AVI`) and the game-over path.
 

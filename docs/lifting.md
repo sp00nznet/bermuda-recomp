@@ -3,7 +3,7 @@
 The layout is Space Bucks': pcrecomp's `ne_link` lifts the NE module, and
 pcrecomp's Win16 host (`runtime/win16/host`) answers the Windows 3.1 API with
 Win32. What follows is what this game needed on top, in the order it turned
-up. The toolkit half is on pcrecomp's `pcrecomp-bermuda` branch.
+up. The toolkit half is in pcrecomp's `main`.
 
 ## 0. Getting the game out
 

@@ -9,8 +9,7 @@ COMMDLG with Win32; the videos and music go through MCI, which the host
 forwards to Windows' own.
 
 Built on the [pcrecomp](https://github.com/sp00nznet/pcrecomp) toolchain, on
-its branch **`pcrecomp-ne-nativemap`** (the Win16 recomps' branch, not yet in
-`main`), in the same layout as the [Space Bucks](https://github.com/sp00nznet/spacebucks-recomp)
+`main`, in the same layout as the [Space Bucks](https://github.com/sp00nznet/spacebucks-recomp)
 and [Catz](https://github.com/sp00nznet/catz-recomp) recomps.
 
 ![The first scene, recompiled: Jack's parachute over the jungle crash site](docs/screenshots/first-scene.png)
@@ -30,8 +29,8 @@ your copy. There is no installer release yet.
 3. Play with **`Bermuda Syndrome.cmd`** in that folder.
 
 The script asks before installing anything (Python 3.10+ with `capstone`,
-CMake, Ninja, MSYS2's MinGW-w64 gcc), fetches pcrecomp on branch
-`pcrecomp-ne-nativemap` beside this folder if it is missing (an existing
+CMake, Ninja, MSYS2's MinGW-w64 gcc), fetches pcrecomp (`main`)
+beside this folder if it is missing (an existing
 checkout on another branch is left alone, and it tells you what to run),
 finds the CD in your drives or asks where it is (`Setup.cmd -GameDir E:\`
 or `-GameDir bermuda.iso`; `-Yes` answers yes to everything), then copies
@@ -75,7 +74,7 @@ Real output of `build\bermuda.exe`, recompiled code throughout:
 
 ## Documentation
 
-- [docs/building.md](docs/building.md): building by hand, the toolkit branch, the usual trip-ups
+- [docs/building.md](docs/building.md): building by hand, the usual trip-ups
 - [docs/lifting.md](docs/lifting.md): getting the game off the CD, and every wall so far and its fix
 - [ROADMAP.md](ROADMAP.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md)
 
